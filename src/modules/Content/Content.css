@@ -1,4 +1,9 @@
 .content {
     display: flex;
+    flex-direction: column;
+}
+
+.content__choice-gender {
+    display: flex;
     justify-content: space-between;
 }
