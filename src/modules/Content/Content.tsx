@@ -6,9 +6,9 @@ import './Content.css';
 const Content = () => (
   <div className='content'>
     <div className='content__choice-gender'>
-      <GenderBlock gender='mens' caption='Мужское' />
+      <GenderBlock gender='men' caption='Мужское' />
       <div className='pr-2'></div>
-      <GenderBlock gender='womens' caption='Женское' />
+      <GenderBlock gender='women' caption='Женское' />
     </div>
     <News />
   </div>

@@ -15,12 +15,12 @@ const router = createBrowserRouter([
     element: <App />
   },
   {
-    path: '/mens',
-    Component: () => <Catalog gender='mens' />
+    path: '/men',
+    Component: () => <Catalog gender='men' />
   },
   {
-    path: '/womens',
-    Component: () => <Catalog gender='womens' />
+    path: '/women',
+    Component: () => <Catalog gender='women' />
   }
 ])
 
