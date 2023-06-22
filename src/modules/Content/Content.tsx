@@ -1,5 +1,6 @@
 import { default as GenderBlock } from './GenderBlock';
 import { default as News } from './News';
+import { default as NewGoods } from './NewGoods';
 
 import './Content.css';
 
@@ -11,6 +12,7 @@ const Content = () => (
       <GenderBlock gender='women' caption='Женское' />
     </div>
     <News />
+    <NewGoods />
   </div>
 
 );

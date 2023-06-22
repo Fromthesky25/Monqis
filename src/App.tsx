@@ -1,18 +1,18 @@
+import Container from '@mui/material/Container';
+
 import { Header } from './modules/Header';
 import { Content } from './modules/Content';
 import { Footer } from './modules/Footer';
 
-import './App.css';
-
-const pages = ['Products', 'Pricing', 'Blog'];
-
 const App = () => {
   return (
-    <div className='app'>
+    <Container
+      disableGutters={true}
+      maxWidth='lg'>
       <Header />
       <Content />
       <Footer />
-    </div>
+    </Container>
   );
 }
 
